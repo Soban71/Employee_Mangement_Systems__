@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Hammersmith+One&family=League+Spartan:wght@300;500&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Passions+Conflict&family=Permanent+Marker&family=Raleway&display=swap');
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Navbar*/
+body {
+    margin: 0;
+  }
+
+  .container {
+    margin: 0rem;
+    text-align: center;
+  }
+  
+.navbar {
+  background-color: #fff; 
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  padding: 1rem 2rem; 
+}
+
+.navbar-brand img {
+  width: 150px; 
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400; 
+  color: #3C4048;
+  margin-right: 1.5rem; 
+  text-decoration: none; 
+}
+
+.nav-link:hover {
+  color: #007bff; 
+}
+
+.navLink.navBa {
+  font-weight: 500; 
+}
+
+.navLink.navBa:hover {
+
+  color: #e74c3c; 
+}
+
+
+.navbar-nav .welcome-message {
+  font-weight: 500;
+  margin-right: 1rem; 
+  color: #007bff; 
+}
+
+
+.NavbarCart {
+  font-size: 1.5rem;
+  color: #3C4048;
+}
+
+.NavbarSCart {
+  vertical-align: middle;
+}
+.NavbarStyle {
+  margin-left: auto; 
+  display: flex;
+  align-items: center;
+}
+
+  
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: 3.4rem;
+    opacity: 1;
+  }
+
+  #hero {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top 25% right 0;
+    padding: 60px 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    background-image: linear-gradient(rgba(49, 131, 81, 0.6), rgba(0, 0, 0, 0.6)), url("../CustomerImages/Image7.jpg");
+    flex-direction: column;
+  }
+  
+
+#hero h1{
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  color: #fff;
+  opacity: 0.8;
+  font-family: 'Raleway',;
+}
+#hero span{
+    font-size: 19px;
+    color: #F7F5F2;
+    display: block;
+    text-align: center;
+}
+#hero p{
+    line-height: normal;
+    font-size: 18px;
+    color: #F7F5F2;
+    margin-top: 20px;
+    opacity: .8;
+
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    color: #fff;
+    background-color: #222;
+    border-color: #222;
+}
+
+#hero .MainPageButton{
+padding: 15px 40px 15px 40px;
+margin-left: 20px;
+margin-top: 20px;
+color: #F7F5F2;
+border: none;
+}
+#hero .MainPageButton:hover{
+    background-color: transparent;
+    transition: .9s ease;
+    color: #222;
+}
+
+.custom-navbar {
+    background-color:whitesmoke; 
+    height: 78px;
+  
+  }
+
+ 
+.cards {
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  margin-top: 20px;
+  gap: 30px;
+  padding: 5rem;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  background-color: white;
+  border-radius: 10px;
+  flex: 0 0 calc(33.33% - 20px);
+  text-align: center;
+  padding: 30px;
+  position: relative;
+  overflow: hidden; 
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  max-width: 100%;
+  height: 150px;
+  width:150px;
+  border-radius: 50%; 
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.card h3 {
+  font-size: 1rem; 
+  margin-top: 10px; 
+  margin-bottom: 15px;
+  font-weight: bold; 
+}
+
+.card ul {
+  padding-left: 10px; 
+  list-style: none; 
+}
+
+.card li {
+  font-size: 16px; 
+  margin-top: 10px; 
+}
+
+/* New styles */
+.Feature-main {
+  text-align: center;
+  padding: 6rem 0rem;
+}
+
+.Feature-main h2 {
+  font-family: 'Railway', sans-serif;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  font-size: 2.5rem; 
+  margin-bottom: 5px;
+  padding: 2rem; 
+}
+
+.Feature-main p {
+  font-family: 'Railway', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  letter-spacing: .1rem;
+  font-size: 1rem;
+  opacity: 0.7;
+  margin-bottom: 30px; 
+}
+
+  
+
+  /*Location*/
+
+  .Location{
+    text-align: center;
+  padding: 5rem 8rem;
+  }
+
+    .Location h2{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      letter-spacing: .1rem;
+      font-size: 3rem;
+      text-align: center;
+   
+    }
+  
+  .Location h1::first-letter {
+    color: crimson;
+   }
+
+   .Location p {
+    font-family: 'Railway', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: .1rem;
+    font-size: 1rem;
+    opacity: 0.7;
+    margin-bottom: 6rem;
+  }
+
+
+   /*Footer*/
+
+   .footer{
+    margin-top: 5rem;
+    text-align: center;
+    padding: 3% 7%;
+    margin-top: 5rem;
+    background-color: #041e42;
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+}
+.footer h1{
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: .1rem; 
+    color: white;   
+}
+.footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 2rem;
+    color: white;   
+}
+li{
+    list-style: none;
+    margin-top: 20px;
+}
+.icons{
+    padding: 2% 45%;
+    color: white;
+}
+.icons:hover{
+    cursor: pointer;
+    transition: .4s ease-in-out;
+    background-color: white;
+}
+.fb{
+    color: rgb(65, 65, 175);
+}
+.twt{
+    color: rgb(82, 82, 163);
+}
+.whtap{
+    color: green;
+}
+.insta{
+    color: rgb(171, 98, 98);
+}
+.text-h{
+    padding: 15rem 15rem;
+    text-align: center;
+}
+.text-h .icons{
+    font-size: 40px;
+    color: white;
+}
+.text-h h1{
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    color: white;
+    line-height: 1.5em;
+}
+.liFooter li{
+    color: white;
+    opacity: .3;
+}
+input{
+    width: 60%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.SearchButton{
+    width: 10%;
+    padding: 15px;
+    background-color: #3C4048;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+/*Leave Application*/
+
+.application-form {
+  border: 1px solid #ccc;
+  padding: 4rem;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.application-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+.form-group textarea{
+  height: 100px;
+}
+.form-group select {
+  appearance: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/*Blog Section*/
+#Blog-hero{
+   
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../CustomerImages/Leavebackgrounds.jpg");
+
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 14px; 
+
+}
+#Blog-hero h2{
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+}
+#Blog-hero p{
+  color: white;
+  letter-spacing: .1rem;
+}
+
+.back-button {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px; 
+  left: 20px; 
+  z-index: 1;
+  border: 0.1px solid #F7F5F2;
+}
+
+
+/*Event*/
+
+#Event-hero{
+   
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../CustomerImages/EventiMAGE.jpg");
+
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 14px; 
+
+}
+#Event-hero h2{
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+}
+#Event-hero p{
+  color: white;
+  letter-spacing: .1rem;
+}
+
+
+.events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.event-card {
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.event-details {
+  padding: 15px;
+}
+
+.event-details h3 {
+  margin-bottom: 10px;
+}
+
+.event-details p {
+  margin-bottom: 10px;
+}
+
+.event-details a {
+  display: inline-block;
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.event-details a:hover {
+  background-color: #0056b3;
+}
+.loader {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+  }
+
+  .navbar {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .navbar-brand img {
+    width: 120px; /* Adjust logo size for smaller screens */
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .Feature-main {
+    padding: 3rem 0rem;
+  }
+
+  .Location {
+    padding: 3rem 1rem;
+  }
+
+  /* Add more styles for smaller screens as needed */
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 0.5rem; /* Further adjust padding for even smaller screens */
+  }
+
+  .nav-link {
+    margin-right: 1rem;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .footer {
+    padding: 2% 5%;
+  }
+
+  /* Add more styles for smaller screens as needed */
+}
